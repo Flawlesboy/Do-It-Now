@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB07297D22312F6200CFB705 /* CreateTaskCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB07297C22312F6200CFB705 /* CreateTaskCellDelegate.swift */; };
+		EB0798C1225654E000C29E34 /* NotificationsDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0798C0225654E000C29E34 /* NotificationsDelegate.swift */; };
+		EB0798C32256821A00C29E34 /* CreateTaskNotificationsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0798C22256821A00C29E34 /* CreateTaskNotificationsViewCell.swift */; };
+		EB0C33AA227F3D8A0073A45F /* EditTaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0C33A9227F3D8A0073A45F /* EditTaskModel.swift */; };
+		EB0D85F12269FC9300E0984F /* CreateTaskSoundCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0D85F02269FC9300E0984F /* CreateTaskSoundCell.swift */; };
+		EB10F860224D5801002E53C0 /* NotificationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB10F85F224D5801002E53C0 /* NotificationsController.swift */; };
+		EB11B9B32274AD120079AA42 /* AppDelegate + Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB11B9B22274AD120079AA42 /* AppDelegate + Notification.swift */; };
+		EB11CFFC22734D4700327384 /* Аккорд.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB11CFFB22734D4700327384 /* Аккорд.mp3 */; };
+		EB11CFFE22734D5000327384 /* Note.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB11CFFD22734D5000327384 /* Note.mp3 */; };
+		EB11D00022734D6700327384 /* Бамбук.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB11CFFF22734D6700327384 /* Бамбук.mp3 */; };
+		EB11D0052273810000327384 /* EditTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB11D0042273810000327384 /* EditTaskViewController.swift */; };
+		EB11D0082273ADC800327384 /* EditTaskDescriptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB11D0072273ADC800327384 /* EditTaskDescriptionCell.swift */; };
+		EB11D00A2273ADF000327384 /* EditTaskNotificationsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB11D0092273ADF000327384 /* EditTaskNotificationsCell.swift */; };
+		EB11D00C2273AE2E00327384 /* EditTaskSoundCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB11D00B2273AE2E00327384 /* EditTaskSoundCell.swift */; };
+		EB15F57D222C6C8300661B7A /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB15F57C222C6C8300661B7A /* TaskCell.swift */; };
+		EB195649222EF9E0002E35E0 /* CreateTaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB195648222EF9E0002E35E0 /* CreateTaskModel.swift */; };
+		EB19564B222F044A002E35E0 /* CreateTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB19564A222F044A002E35E0 /* CreateTaskViewController.swift */; };
+		EB19564D222F1B6C002E35E0 /* CreateTaskDescriptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB19564C222F1B6C002E35E0 /* CreateTaskDescriptionCell.swift */; };
+		EB1AC9292238247E00AD31A7 /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1AC9282238247E00AD31A7 /* TaskModel.swift */; };
+		EB1C4906224FFF150014368A /* createTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1C4905224FFF150014368A /* createTask.swift */; };
+		EB23424F22660FA0008108E7 /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB23424E22660FA0008108E7 /* Sound.swift */; };
+		EB23425122660FE7008108E7 /* SoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB23425022660FE7008108E7 /* SoundViewController.swift */; };
+		EB2342532266522E008108E7 /* Дождь.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB2342522266522E008108E7 /* Дождь.mp3 */; };
+		EB23425722666363008108E7 /* Рог.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB23425622666363008108E7 /* Рог.mp3 */; };
+		EB2342592266636D008108E7 /* Гром.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB2342582266636D008108E7 /* Гром.mp3 */; };
+		EB23425D2266676D008108E7 /* Волшебная палочка.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB23425C2266676D008108E7 /* Волшебная палочка.mp3 */; };
+		EB23425F22666787008108E7 /* Молния.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB23425E22666787008108E7 /* Молния.mp3 */; };
+		EB265DA3226B78790040719F /* SoundDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB265DA2226B78790040719F /* SoundDelegate.swift */; };
+		EB3876FB2229780700F05FBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3876FA2229780700F05FBA /* AppDelegate.swift */; };
+		EB3876FD2229780700F05FBA /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3876FC2229780700F05FBA /* TaskViewController.swift */; };
+		EB3877002229780700F05FBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB3876FE2229780700F05FBA /* Main.storyboard */; };
+		EB3877032229780700F05FBA /* Are_you_doing_anything_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EB3877012229780700F05FBA /* Are_you_doing_anything_.xcdatamodeld */; };
+		EB3877052229780900F05FBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB3877042229780900F05FBA /* Assets.xcassets */; };
+		EB3877082229780900F05FBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB3877062229780900F05FBA /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EB07297C22312F6200CFB705 /* CreateTaskCellDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTaskCellDelegate.swift; sourceTree = "<group>"; };
+		EB0798C0225654E000C29E34 /* NotificationsDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsDelegate.swift; sourceTree = "<group>"; };
+		EB0798C22256821A00C29E34 /* CreateTaskNotificationsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTaskNotificationsViewCell.swift; sourceTree = "<group>"; };
+		EB0C33A9227F3D8A0073A45F /* EditTaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTaskModel.swift; sourceTree = "<group>"; };
+		EB0D85F02269FC9300E0984F /* CreateTaskSoundCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTaskSoundCell.swift; sourceTree = "<group>"; };
+		EB10F85F224D5801002E53C0 /* NotificationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsController.swift; sourceTree = "<group>"; };
+		EB11B9B22274AD120079AA42 /* AppDelegate + Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate + Notification.swift"; sourceTree = "<group>"; };
+		EB11CFFB22734D4700327384 /* Аккорд.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Аккорд.mp3"; sourceTree = "<group>"; };
+		EB11CFFD22734D5000327384 /* Note.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Note.mp3; sourceTree = "<group>"; };
+		EB11CFFF22734D6700327384 /* Бамбук.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Бамбук.mp3"; sourceTree = "<group>"; };
+		EB11D0042273810000327384 /* EditTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTaskViewController.swift; sourceTree = "<group>"; };
+		EB11D0072273ADC800327384 /* EditTaskDescriptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTaskDescriptionCell.swift; sourceTree = "<group>"; };
+		EB11D0092273ADF000327384 /* EditTaskNotificationsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTaskNotificationsCell.swift; sourceTree = "<group>"; };
+		EB11D00B2273AE2E00327384 /* EditTaskSoundCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTaskSoundCell.swift; sourceTree = "<group>"; };
+		EB15F57C222C6C8300661B7A /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
+		EB195648222EF9E0002E35E0 /* CreateTaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTaskModel.swift; sourceTree = "<group>"; };
+		EB19564A222F044A002E35E0 /* CreateTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTaskViewController.swift; sourceTree = "<group>"; };
+		EB19564C222F1B6C002E35E0 /* CreateTaskDescriptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTaskDescriptionCell.swift; sourceTree = "<group>"; };
+		EB1AC9282238247E00AD31A7 /* TaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
+		EB1C4905224FFF150014368A /* createTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = createTask.swift; sourceTree = "<group>"; };
+		EB23424E22660FA0008108E7 /* Sound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
+		EB23425022660FE7008108E7 /* SoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundViewController.swift; sourceTree = "<group>"; };
+		EB2342522266522E008108E7 /* Дождь.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Дождь.mp3"; sourceTree = "<group>"; };
+		EB23425622666363008108E7 /* Рог.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Рог.mp3"; sourceTree = "<group>"; };
+		EB2342582266636D008108E7 /* Гром.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Гром.mp3"; sourceTree = "<group>"; };
+		EB23425C2266676D008108E7 /* Волшебная палочка.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Волшебная палочка.mp3"; sourceTree = "<group>"; };
+		EB23425E22666787008108E7 /* Молния.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Молния.mp3"; sourceTree = "<group>"; };
+		EB265DA2226B78790040719F /* SoundDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundDelegate.swift; sourceTree = "<group>"; };
+		EB3876F72229780700F05FBA /* Are you doing anything?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Are you doing anything?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB3876FA2229780700F05FBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB3876FC2229780700F05FBA /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
+		EB3876FF2229780700F05FBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB3877022229780700F05FBA /* Are_you_doing_anything_.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Are_you_doing_anything_.xcdatamodel; sourceTree = "<group>"; };
+		EB3877042229780900F05FBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB3877072229780900F05FBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB3877092229780900F05FBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB3876F42229780700F05FBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB07297B22312F2E00CFB705 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				EB19564C222F1B6C002E35E0 /* CreateTaskDescriptionCell.swift */,
+				EB07297C22312F6200CFB705 /* CreateTaskCellDelegate.swift */,
+				EB0798C22256821A00C29E34 /* CreateTaskNotificationsViewCell.swift */,
+				EB0D85F02269FC9300E0984F /* CreateTaskSoundCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		EB11D00122737E0A00327384 /* EditTask */ = {
+			isa = PBXGroup;
+			children = (
+				EB11D003227380C200327384 /* Model */,
+				EB11D002227380B600327384 /* Controller */,
+			);
+			path = EditTask;
+			sourceTree = "<group>";
+		};
+		EB11D002227380B600327384 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EB11D0062273A91200327384 /* Cell */,
+				EB11D0042273810000327384 /* EditTaskViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EB11D003227380C200327384 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EB0C33A9227F3D8A0073A45F /* EditTaskModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EB11D0062273A91200327384 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				EB11D0072273ADC800327384 /* EditTaskDescriptionCell.swift */,
+				EB11D0092273ADF000327384 /* EditTaskNotificationsCell.swift */,
+				EB11D00B2273AE2E00327384 /* EditTaskSoundCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		EB11FA79222AAD3900F329EB /* Applications */ = {
+			isa = PBXGroup;
+			children = (
+				EB11FA7A222AAD6900F329EB /* Model */,
+				EB11FA7B222AAD8200F329EB /* View */,
+				EB11FA7C222AADA000F329EB /* Controller */,
+			);
+			path = Applications;
+			sourceTree = "<group>";
+		};
+		EB11FA7A222AAD6900F329EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EB11FA7B222AAD8200F329EB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EB3877062229780900F05FBA /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EB11FA7C222AADA000F329EB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EB3876FA2229780700F05FBA /* AppDelegate.swift */,
+				EB11B9B22274AD120079AA42 /* AppDelegate + Notification.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EB11FA7D222AAE1A00F329EB /* Task */ = {
+			isa = PBXGroup;
+			children = (
+				EB11FA80222AAE4F00F329EB /* Model */,
+				EB11FA7F222AAE4600F329EB /* View */,
+				EB11FA7E222AAE3600F329EB /* Controller */,
+			);
+			path = Task;
+			sourceTree = "<group>";
+		};
+		EB11FA7E222AAE3600F329EB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EB3876FC2229780700F05FBA /* TaskViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EB11FA7F222AAE4600F329EB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EB15F57C222C6C8300661B7A /* TaskCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EB11FA80222AAE4F00F329EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EB1AC9282238247E00AD31A7 /* TaskModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EB11FA81222AAE6600F329EB /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				EB3877012229780700F05FBA /* Are_you_doing_anything_.xcdatamodeld */,
+				EB3877092229780900F05FBA /* Info.plist */,
+				EB3877042229780900F05FBA /* Assets.xcassets */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		EB135E0E22491DD000E30323 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				EB135E1122491E1200E30323 /* Model */,
+				EB135E1022491E0800E30323 /* View */,
+				EB135E0F22491DFA00E30323 /* Controller */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		EB135E0F22491DFA00E30323 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EB10F85F224D5801002E53C0 /* NotificationsController.swift */,
+				EB0798C0225654E000C29E34 /* NotificationsDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EB135E1022491E0800E30323 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EB135E1122491E1200E30323 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EB15F578222C6AE200661B7A /* CreateTask */ = {
+			isa = PBXGroup;
+			children = (
+				EB15F57B222C6BCD00661B7A /* Model */,
+				EB15F57A222C6BC200661B7A /* View */,
+				EB15F579222C6B1300661B7A /* Controller */,
+			);
+			path = CreateTask;
+			sourceTree = "<group>";
+		};
+		EB15F579222C6B1300661B7A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EB19564A222F044A002E35E0 /* CreateTaskViewController.swift */,
+				EB1C4905224FFF150014368A /* createTask.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EB15F57A222C6BC200661B7A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EB07297B22312F2E00CFB705 /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EB15F57B222C6BCD00661B7A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EB195648222EF9E0002E35E0 /* CreateTaskModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EB23424A22660651008108E7 /* SoundList */ = {
+			isa = PBXGroup;
+			children = (
+				EB23424D22660F6C008108E7 /* SoundsFile */,
+				EB23424B226606AA008108E7 /* Model */,
+				EB23424C226606B8008108E7 /* Controller */,
+			);
+			path = SoundList;
+			sourceTree = "<group>";
+		};
+		EB23424B226606AA008108E7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EB23424C226606B8008108E7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EB23425022660FE7008108E7 /* SoundViewController.swift */,
+				EB265DA2226B78790040719F /* SoundDelegate.swift */,
+				EB23424E22660FA0008108E7 /* Sound.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EB23424D22660F6C008108E7 /* SoundsFile */ = {
+			isa = PBXGroup;
+			children = (
+				EB11CFFB22734D4700327384 /* Аккорд.mp3 */,
+				EB11CFFF22734D6700327384 /* Бамбук.mp3 */,
+				EB11CFFD22734D5000327384 /* Note.mp3 */,
+				EB23425E22666787008108E7 /* Молния.mp3 */,
+				EB23425C2266676D008108E7 /* Волшебная палочка.mp3 */,
+				EB2342582266636D008108E7 /* Гром.mp3 */,
+				EB23425622666363008108E7 /* Рог.mp3 */,
+				EB2342522266522E008108E7 /* Дождь.mp3 */,
+			);
+			path = SoundsFile;
+			sourceTree = "<group>";
+		};
+		EB3876EE2229780700F05FBA = {
+			isa = PBXGroup;
+			children = (
+				EB3876F92229780700F05FBA /* Are you doing anything? */,
+				EB3876F82229780700F05FBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB3876F82229780700F05FBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB3876F72229780700F05FBA /* Are you doing anything?.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB3876F92229780700F05FBA /* Are you doing anything? */ = {
+			isa = PBXGroup;
+			children = (
+				EB11FA79222AAD3900F329EB /* Applications */,
+				EB11D00122737E0A00327384 /* EditTask */,
+				EB11FA7D222AAE1A00F329EB /* Task */,
+				EB15F578222C6AE200661B7A /* CreateTask */,
+				EB135E0E22491DD000E30323 /* Notifications */,
+				EB23424A22660651008108E7 /* SoundList */,
+				EB11FA81222AAE6600F329EB /* Supporting files */,
+				EB3876FE2229780700F05FBA /* Main.storyboard */,
+			);
+			path = "Are you doing anything?";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB3876F62229780700F05FBA /* Are you doing anything? */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB38770C2229780900F05FBA /* Build configuration list for PBXNativeTarget "Are you doing anything?" */;
+			buildPhases = (
+				EB3876F32229780700F05FBA /* Sources */,
+				EB3876F42229780700F05FBA /* Frameworks */,
+				EB3876F52229780700F05FBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Are you doing anything?";
+			productName = "Are you doing anything?";
+			productReference = EB3876F72229780700F05FBA /* Are you doing anything?.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB3876EF2229780700F05FBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Загид Гусейнов";
+				TargetAttributes = {
+					EB3876F62229780700F05FBA = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = EB3876F22229780700F05FBA /* Build configuration list for PBXProject "Are you doing anything?" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB3876EE2229780700F05FBA;
+			productRefGroup = EB3876F82229780700F05FBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB3876F62229780700F05FBA /* Are you doing anything? */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB3876F52229780700F05FBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB11CFFC22734D4700327384 /* Аккорд.mp3 in Resources */,
+				EB3877082229780900F05FBA /* LaunchScreen.storyboard in Resources */,
+				EB23425F22666787008108E7 /* Молния.mp3 in Resources */,
+				EB3877052229780900F05FBA /* Assets.xcassets in Resources */,
+				EB2342532266522E008108E7 /* Дождь.mp3 in Resources */,
+				EB2342592266636D008108E7 /* Гром.mp3 in Resources */,
+				EB11CFFE22734D5000327384 /* Note.mp3 in Resources */,
+				EB11D00022734D6700327384 /* Бамбук.mp3 in Resources */,
+				EB23425722666363008108E7 /* Рог.mp3 in Resources */,
+				EB23425D2266676D008108E7 /* Волшебная палочка.mp3 in Resources */,
+				EB3877002229780700F05FBA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB3876F32229780700F05FBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB15F57D222C6C8300661B7A /* TaskCell.swift in Sources */,
+				EB11D0052273810000327384 /* EditTaskViewController.swift in Sources */,
+				EB23424F22660FA0008108E7 /* Sound.swift in Sources */,
+				EB07297D22312F6200CFB705 /* CreateTaskCellDelegate.swift in Sources */,
+				EB0C33AA227F3D8A0073A45F /* EditTaskModel.swift in Sources */,
+				EB11D0082273ADC800327384 /* EditTaskDescriptionCell.swift in Sources */,
+				EB10F860224D5801002E53C0 /* NotificationsController.swift in Sources */,
+				EB0D85F12269FC9300E0984F /* CreateTaskSoundCell.swift in Sources */,
+				EB23425122660FE7008108E7 /* SoundViewController.swift in Sources */,
+				EB1AC9292238247E00AD31A7 /* TaskModel.swift in Sources */,
+				EB1C4906224FFF150014368A /* createTask.swift in Sources */,
+				EB19564D222F1B6C002E35E0 /* CreateTaskDescriptionCell.swift in Sources */,
+				EB195649222EF9E0002E35E0 /* CreateTaskModel.swift in Sources */,
+				EB3876FD2229780700F05FBA /* TaskViewController.swift in Sources */,
+				EB11D00C2273AE2E00327384 /* EditTaskSoundCell.swift in Sources */,
+				EB11B9B32274AD120079AA42 /* AppDelegate + Notification.swift in Sources */,
+				EB0798C1225654E000C29E34 /* NotificationsDelegate.swift in Sources */,
+				EB3877032229780700F05FBA /* Are_you_doing_anything_.xcdatamodeld in Sources */,
+				EB3876FB2229780700F05FBA /* AppDelegate.swift in Sources */,
+				EB19564B222F044A002E35E0 /* CreateTaskViewController.swift in Sources */,
+				EB11D00A2273ADF000327384 /* EditTaskNotificationsCell.swift in Sources */,
+				EB0798C32256821A00C29E34 /* CreateTaskNotificationsViewCell.swift in Sources */,
+				EB265DA3226B78790040719F /* SoundDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EB3876FE2229780700F05FBA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB3876FF2229780700F05FBA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB3877062229780900F05FBA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB3877072229780900F05FBA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB38770A2229780900F05FBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB38770B2229780900F05FBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB38770D2229780900F05FBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9M6JDTKFW3;
+				INFOPLIST_FILE = "$(SRCROOT)/Are you doing anything?/Supporting files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "c.Are-you-doing-anything-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EB38770E2229780900F05FBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9M6JDTKFW3;
+				INFOPLIST_FILE = "$(SRCROOT)/Are you doing anything?/Supporting files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "c.Are-you-doing-anything-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB3876F22229780700F05FBA /* Build configuration list for PBXProject "Are you doing anything?" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB38770A2229780900F05FBA /* Debug */,
+				EB38770B2229780900F05FBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB38770C2229780900F05FBA /* Build configuration list for PBXNativeTarget "Are you doing anything?" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB38770D2229780900F05FBA /* Debug */,
+				EB38770E2229780900F05FBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EB3877012229780700F05FBA /* Are_you_doing_anything_.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EB3877022229780700F05FBA /* Are_you_doing_anything_.xcdatamodel */,
+			);
+			currentVersion = EB3877022229780700F05FBA /* Are_you_doing_anything_.xcdatamodel */;
+			path = Are_you_doing_anything_.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EB3876EF2229780700F05FBA /* Project object */;
+}
